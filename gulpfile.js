@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var watch = require('gulp-watch');
 
 var source = './';
-var project_destination = 'C:/projects/dev/src/Project/Norra/code/src/';
-var wwwroot_destination = 'C:/inetpub/wwwroot/Norra/Website/src/';
+var project_destination = 'C:/projects/dev/src/Project/Norra/code/';
+var wwwroot_destination = 'C:/inetpub/wwwroot/Norra/Website/';
 
 gulp.task('default', ['watch:sync-project', 'watch:sync-wwwroot', 'webpack:watch'/*, 'webpack:dev-server'*/]);
 
